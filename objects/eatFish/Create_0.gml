@@ -3,8 +3,7 @@
 
 hsp = 0;
 vsp = 0;
-walksp = 4;
+
+walksp = 1;
 jumpsp = 4;
-health = 3;
-firingdelay = 0;
-fishBones = 0;
+

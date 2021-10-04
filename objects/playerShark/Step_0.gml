@@ -16,3 +16,34 @@ vsp = moveVertical * jumpsp;
 y = y + vsp;
 
 x = x + hsp;
+
+if(place_meeting(x + 50, y, eatFish))
+{
+
+	sprite_index = playerEat;
+	fishBones += 1;
+}
+
+else {
+	sprite_index = playerC;
+}
+
+
+image_angle = point_direction(x, y, x + 1, y);
+
+
+
+
+firingdelay = firingdelay - 1;
+if (mouse_check_button(mb_left)) && (firingdelay < 0) && (fishBones != 0)
+{
+	firingdelay = 5;
+	with(instance_create_layer(x,y,"FishBones", boneFish))
+	{
+		speed = 10;
+		direction = image_angle;
+		
+		
+	}
+fishBones -= 1;
+}
