@@ -10,10 +10,12 @@
     {"id":{"name":"ScoreText","path":"objects/ScoreText/ScoreText.yy",},"order":6,},
     {"id":{"name":"room_StartMenu","path":"rooms/room_StartMenu/room_StartMenu.yy",},"order":1,},
     {"id":{"name":"eatFishHealth","path":"objects/eatFishHealth/eatFishHealth.yy",},"order":5,},
+    {"id":{"name":"bloodFish","path":"objects/bloodFish/bloodFish.yy",},"order":6,},
     {"id":{"name":"fishBone","path":"sprites/fishBone/fishBone.yy",},"order":3,},
     {"id":{"name":"eatFish","path":"objects/eatFish/eatFish.yy",},"order":1,},
     {"id":{"name":"playerEat","path":"sprites/playerEat/playerEat.yy",},"order":2,},
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":4,},
+    {"id":{"name":"fishBlood","path":"sprites/fishBlood/fishBlood.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
