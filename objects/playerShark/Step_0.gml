@@ -21,7 +21,7 @@ if(place_meeting(x + 50, y, eatFish))
 {
 
 	sprite_index = playerEat;
-	fishBones += 1;
+	
 }
 
 else {

@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (alarm[0] == -1) {
-    alarm[0] = spawn_time;
-}
+
+
+hsp = 0;
+vsp = 0;
+
+walksp = 1;
+jumpsp = 4;
+
