@@ -5,7 +5,10 @@
     {"id":{"name":"boneFish","path":"objects/boneFish/boneFish.yy",},"order":3,},
     {"id":{"name":"playerC","path":"sprites/playerC/playerC.yy",},"order":0,},
     {"id":{"name":"fishSpawner","path":"objects/fishSpawner/fishSpawner.yy",},"order":2,},
+    {"id":{"name":"room_DeathMenu","path":"rooms/room_DeathMenu/room_DeathMenu.yy",},"order":2,},
+    {"id":{"name":"obj_RestartButton","path":"objects/obj_RestartButton/obj_RestartButton.yy",},"order":5,},
     {"id":{"name":"fishEat","path":"sprites/fishEat/fishEat.yy",},"order":1,},
+    {"id":{"name":"spr_RestartButton","path":"sprites/spr_RestartButton/spr_RestartButton.yy",},"order":5,},
     {"id":{"name":"room_StartMenu","path":"rooms/room_StartMenu/room_StartMenu.yy",},"order":1,},
     {"id":{"name":"fishBone","path":"sprites/fishBone/fishBone.yy",},"order":3,},
     {"id":{"name":"eatFish","path":"objects/eatFish/eatFish.yy",},"order":1,},
@@ -28,6 +31,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"room_StartMenu","path":"rooms/room_StartMenu/room_StartMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_DeathMenu","path":"rooms/room_DeathMenu/room_DeathMenu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
