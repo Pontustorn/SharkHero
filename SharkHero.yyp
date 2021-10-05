@@ -15,6 +15,7 @@
     {"id":{"name":"eatFishHealth","path":"objects/eatFishHealth/eatFishHealth.yy",},"order":5,},
     {"id":{"name":"bloodFish","path":"objects/bloodFish/bloodFish.yy",},"order":6,},
     {"id":{"name":"spr_Shark_001","path":"sprites/spr_Shark_001/spr_Shark_001.yy",},"order":8,},
+    {"id":{"name":"sfx_AddToHighscore","path":"sounds/sfx_AddToHighscore/sfx_AddToHighscore.yy",},"order":0,},
     {"id":{"name":"fishBone","path":"sprites/fishBone/fishBone.yy",},"order":3,},
     {"id":{"name":"eatFish","path":"objects/eatFish/eatFish.yy",},"order":1,},
     {"id":{"name":"playerEat","path":"sprites/playerEat/playerEat.yy",},"order":2,},
