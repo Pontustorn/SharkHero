@@ -39,7 +39,7 @@ else
 var inst = collision_rectangle(x, y, x + 100, y + 100, eatFish, false, false);
 if (inst != noone)
 {
-	sprite_index = playerEat;
+	//sprite_index = playerEat;
    // An instance of obj_stone is in front of you
 
 }

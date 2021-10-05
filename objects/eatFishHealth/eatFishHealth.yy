@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "fishEatHealth",
-    "path": "sprites/fishEatHealth/fishEatHealth.yy",
+    "name": "medicBox",
+    "path": "sprites/medicBox/medicBox.yy",
   },
   "solid": false,
   "visible": true,
