@@ -3,4 +3,7 @@
 
 health = 25;
 
-spawn_time = 2 * room_speed;
+spawn_time = 0.1 * room_speed;
+
+alarm[1] = room_speed * 20;
+
