@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Obstacle_001",
-    "path": "sprites/Obstacle_001/Obstacle_001.yy",
+    "name": "bossSquid",
+    "path": "sprites/bossSquid/bossSquid.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "stoneObstacle",
+  "name": "squidBoss",
   "tags": [],
   "resourceType": "GMObject",
 }
