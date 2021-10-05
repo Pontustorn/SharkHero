@@ -70,7 +70,7 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0) && (fishBones != 0)
 fishBones -= 1;
 }
 
-if(health <= 0)
+if(maxHealth <= 0)
 {
 	instance_destroy();
 }

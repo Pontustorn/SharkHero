@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(health < maxHealth)
+if(maxHealth <= 3)
 {
-health += 1;
+maxHealth += 1;
 }
