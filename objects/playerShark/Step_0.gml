@@ -27,6 +27,9 @@ if (horizontalInput != 0 || verticalInput != 0)
 
 	x += xMovement;
 	y += yMovement;
+	
+	x = clamp(x, 32, room_width-32);
+	y = clamp(y, 32, room_height-32);
 }
 else 
 {
@@ -66,3 +69,5 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0) && (fishBones != 0)
 	}
 fishBones -= 1;
 }
+
+
