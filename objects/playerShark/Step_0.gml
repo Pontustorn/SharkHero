@@ -33,16 +33,19 @@ else
 	motion_set(moveDirection * -1, -0.5);
 }
 
-//if(place_meeting(x + 50, y, eatFish))
-//{
+var inst = collision_rectangle(x, y, x + 100, y + 100, eatFish, false, false);
+if (inst != noone)
+{
+	sprite_index = playerEat;
+   // An instance of obj_stone is in front of you
 
-//	sprite_index = playerEat;
+}
+
+else {
 	
-//}
+	sprite_index = spr_Shark_001;
+}
 
-//else {
-//	sprite_index = playerC;
-//}
 
 
 image_angle = point_direction(x, y, x + 1, y);
