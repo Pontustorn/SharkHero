@@ -7,6 +7,7 @@
     {"id":{"name":"boneFish","path":"objects/boneFish/boneFish.yy",},"order":3,},
     {"id":{"name":"fishSpawner","path":"objects/fishSpawner/fishSpawner.yy",},"order":2,},
     {"id":{"name":"bottleEnemy","path":"objects/bottleEnemy/bottleEnemy.yy",},"order":8,},
+    {"id":{"name":"Berlin_Sans_FB_Demi","path":"fonts/Berlin_Sans_FB_Demi/Berlin_Sans_FB_Demi.yy",},"order":0,},
     {"id":{"name":"fishEatHealth","path":"sprites/fishEatHealth/fishEatHealth.yy",},"order":5,},
     {"id":{"name":"fishEat","path":"sprites/fishEat/fishEat.yy",},"order":1,},
     {"id":{"name":"ScoreText","path":"objects/ScoreText/ScoreText.yy",},"order":6,},
