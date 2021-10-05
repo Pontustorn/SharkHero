@@ -5,5 +5,5 @@ maxHealth = health;
 firingdelay = 0;
 fishBones = 0;
 
-x = room_width / 2;
+x = 50;
 y = room_height / 2;
