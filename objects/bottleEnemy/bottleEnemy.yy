@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Shark_001",
-    "path": "sprites/spr_Shark_001/spr_Shark_001.yy",
+    "name": "enemyBottle",
+    "path": "sprites/enemyBottle/enemyBottle.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,10 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"eatFish","path":"objects/eatFish/eatFish.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"bottleEnemy","path":"objects/bottleEnemy/bottleEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"playerShark","path":"objects/playerShark/playerShark.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "playerShark",
+  "name": "bottleEnemy",
   "tags": [],
   "resourceType": "GMObject",
 }
