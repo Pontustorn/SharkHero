@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+var moveDistance = 100;
+var deltaTime = delta_time / 1000000;
+var moveSpeed = moveDistance * deltaTime;
+var maxSpeed = 3;
 
 
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -7,16 +11,27 @@ key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
-var moveHorizontal = key_right - key_left;
+var horizontalInput = key_right - key_left;
+var verticalInput = key_down - key_up;
+var moveDirection = 0;
 
-var moveVertical = key_down - key_up;
+if (horizontalInput != 0 || verticalInput != 0)
+{
+	moveDirection = point_direction(0,0,horizontalInput, verticalInput);
 
-hsp = moveHorizontal * walksp;
-vsp = moveVertical * jumpsp;
+	var xMovement = lengthdir_x(moveSpeed, moveDirection);
+	var yMovement = lengthdir_y(moveSpeed, moveDirection);
+	
+	motion_add(moveDirection, 0.1);
+	if (speed >= maxSpeed) {speed = maxSpeed}
 
-y = y + vsp;
-
-x = x + hsp;
+	x += xMovement;
+	y += yMovement;
+}
+else 
+{
+	motion_set(moveDirection * -1, -0.5);
+}
 
 //if(place_meeting(x + 50, y, eatFish))
 //{
