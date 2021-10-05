@@ -15,7 +15,9 @@
     {"id":{"name":"fishBone","path":"sprites/fishBone/fishBone.yy",},"order":3,},
     {"id":{"name":"eatFish","path":"objects/eatFish/eatFish.yy",},"order":1,},
     {"id":{"name":"playerEat","path":"sprites/playerEat/playerEat.yy",},"order":2,},
+    {"id":{"name":"obstacleStone","path":"sprites/obstacleStone/obstacleStone.yy",},"order":7,},
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":4,},
+    {"id":{"name":"stoneObstacle","path":"objects/stoneObstacle/stoneObstacle.yy",},"order":7,},
     {"id":{"name":"fishBlood","path":"sprites/fishBlood/fishBlood.yy",},"order":6,},
   ],
   "Options": [
