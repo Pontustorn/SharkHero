@@ -18,16 +18,16 @@ y = y + vsp;
 
 x = x + hsp;
 
-if(place_meeting(x + 50, y, eatFish))
-{
+//if(place_meeting(x + 50, y, eatFish))
+//{
 
-	sprite_index = playerEat;
+//	sprite_index = playerEat;
 	
-}
+//}
 
-else {
-	sprite_index = playerC;
-}
+//else {
+//	sprite_index = playerC;
+//}
 
 
 image_angle = point_direction(x, y, x + 1, y);
