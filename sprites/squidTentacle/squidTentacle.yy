@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
-  "bbox_right": 63,
-  "bbox_top": 0,
+  "bbox_left": 19,
+  "bbox_right": 35,
+  "bbox_top": 9,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3aae8904-9766-42db-b946-ae0ef7a3dd6c","path":"sprites/bossSquid/bossSquid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3aae8904-9766-42db-b946-ae0ef7a3dd6c","path":"sprites/bossSquid/bossSquid.yy",},"LayerId":{"name":"50e7f1ca-925f-498f-93fe-75fe4ecd884f","path":"sprites/bossSquid/bossSquid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bossSquid","path":"sprites/bossSquid/bossSquid.yy",},"resourceVersion":"1.0","name":"3aae8904-9766-42db-b946-ae0ef7a3dd6c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"481dc9e3-ca72-4b27-9dc4-703dcac1071d","path":"sprites/squidTentacle/squidTentacle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"481dc9e3-ca72-4b27-9dc4-703dcac1071d","path":"sprites/squidTentacle/squidTentacle.yy",},"LayerId":{"name":"4684bd82-913f-4ced-936d-e115340a8e2f","path":"sprites/squidTentacle/squidTentacle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"squidTentacle","path":"sprites/squidTentacle/squidTentacle.yy",},"resourceVersion":"1.0","name":"481dc9e3-ca72-4b27-9dc4-703dcac1071d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"bossSquid","path":"sprites/bossSquid/bossSquid.yy",},
+    "spriteId": {"name":"squidTentacle","path":"sprites/squidTentacle/squidTentacle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c010acf8-4cb3-44c3-9be1-62e11cdbd41b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3aae8904-9766-42db-b946-ae0ef7a3dd6c","path":"sprites/bossSquid/bossSquid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"897d3170-3d31-4ce6-8a8b-6d73a76cdfe1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"481dc9e3-ca72-4b27-9dc4-703dcac1071d","path":"sprites/squidTentacle/squidTentacle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bossSquid","path":"sprites/bossSquid/bossSquid.yy",},
+    "parent": {"name":"squidTentacle","path":"sprites/squidTentacle/squidTentacle.yy",},
     "resourceVersion": "1.3",
-    "name": "bossSquid",
+    "name": "squidTentacle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"50e7f1ca-925f-498f-93fe-75fe4ecd884f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4684bd82-913f-4ced-936d-e115340a8e2f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bossSquid",
+  "name": "squidTentacle",
   "tags": [],
   "resourceType": "GMSprite",
 }
