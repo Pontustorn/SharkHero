@@ -4,10 +4,23 @@
 if(squidBoss.playerHasArrived == true)
 {
 
-instance_create_layer(x + 100, 450,"Fish", bottleEnemy);
-instance_create_layer(x + 100, 470,"Fish", bottleEnemy);
-instance_create_layer(x + 100, 490,"Fish", bottleEnemy);
-instance_create_layer(x + 100, 510,"Fish", bottleEnemy);
+//One fish
+instance_create_layer(x + 100, 550,"Fish", eatFish);
+//Two fishies
+instance_create_layer(x + 175, 575,"Fish", eatFish);
+instance_create_layer(x + 175, 525,"Fish", eatFish);
+//Three fishies
+instance_create_layer(x + 250, 550,"Fish", eatFish);
+instance_create_layer(x + 250, 600,"Fish", eatFish);
+instance_create_layer(x + 250, 500,"Fish", eatFish);
+
+//Two fishies
+instance_create_layer(x + 325, 575,"Fish", eatFish);
+instance_create_layer(x + 325, 525,"Fish", eatFish);
+
+
+//// Five fishies
+instance_create_layer(x + 400, 550,"Fish", eatFish);
 
 
 }
