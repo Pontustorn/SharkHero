@@ -28,6 +28,7 @@
     {"id":{"name":"spr_Shark_001","path":"sprites/spr_Shark_001/spr_Shark_001.yy",},"order":8,},
     {"id":{"name":"spr_medicBox","path":"sprites/spr_medicBox/spr_medicBox.yy",},"order":16,},
     {"id":{"name":"sfx_AddToHighscore","path":"sounds/sfx_AddToHighscore/sfx_AddToHighscore.yy",},"order":0,},
+    {"id":{"name":"spr_Shark_Eat","path":"sprites/spr_Shark_Eat/spr_Shark_Eat.yy",},"order":23,},
     {"id":{"name":"eatFish","path":"objects/eatFish/eatFish.yy",},"order":1,},
     {"id":{"name":"spr_oilFlow","path":"sprites/spr_oilFlow/spr_oilFlow.yy",},"order":19,},
     {"id":{"name":"spr_Squid","path":"sprites/spr_Squid/spr_Squid.yy",},"order":21,},
@@ -36,6 +37,7 @@
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":4,},
     {"id":{"name":"oPlanks","path":"objects/oPlanks/oPlanks.yy",},"order":16,},
     {"id":{"name":"obj_stoneObstacle","path":"objects/obj_stoneObstacle/obj_stoneObstacle.yy",},"order":7,},
+    {"id":{"name":"spr_Shark_Bleed","path":"sprites/spr_Shark_Bleed/spr_Shark_Bleed.yy",},"order":24,},
     {"id":{"name":"fishBlood","path":"sprites/fishBlood/fishBlood.yy",},"order":6,},
   ],
   "Options": [
