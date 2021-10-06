@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "fishEat",
-    "path": "sprites/fishEat/fishEat.yy",
+    "name": "spr_eatFish",
+    "path": "sprites/spr_eatFish/spr_eatFish.yy",
   },
   "solid": false,
   "visible": true,

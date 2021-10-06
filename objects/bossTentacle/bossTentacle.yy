@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "squidTentacle",
-    "path": "sprites/squidTentacle/squidTentacle.yy",
+    "name": "spr_SquidTentacle",
+    "path": "sprites/spr_SquidTentacle/spr_SquidTentacle.yy",
   },
   "solid": false,
   "visible": true,

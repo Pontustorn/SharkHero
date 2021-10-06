@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "medicBox",
-    "path": "sprites/medicBox/medicBox.yy",
+    "name": "spr_medicBox",
+    "path": "sprites/spr_medicBox/spr_medicBox.yy",
   },
   "solid": false,
   "visible": true,

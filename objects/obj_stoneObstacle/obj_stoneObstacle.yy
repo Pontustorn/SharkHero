@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_oilProjectile",
-    "path": "sprites/spr_oilProjectile/spr_oilProjectile.yy",
+    "name": "spr_Obstacle",
+    "path": "sprites/spr_Obstacle/spr_Obstacle.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oilProjectile",
+  "name": "obj_stoneObstacle",
   "tags": [],
   "resourceType": "GMObject",
 }
