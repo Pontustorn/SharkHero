@@ -20,6 +20,7 @@
     {"id":{"name":"room_StartMenu","path":"rooms/room_StartMenu/room_StartMenu.yy",},"order":1,},
     {"id":{"name":"spr_Bottle","path":"sprites/spr_Bottle/spr_Bottle.yy",},"order":18,},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},"order":1,},
+    {"id":{"name":"healthSpawner","path":"objects/healthSpawner/healthSpawner.yy",},"order":17,},
     {"id":{"name":"spr_oilProjectile","path":"sprites/spr_oilProjectile/spr_oilProjectile.yy",},"order":14,},
     {"id":{"name":"eatFishHealth","path":"objects/eatFishHealth/eatFishHealth.yy",},"order":5,},
     {"id":{"name":"oHurtbox","path":"objects/oHurtbox/oHurtbox.yy",},"order":10,},

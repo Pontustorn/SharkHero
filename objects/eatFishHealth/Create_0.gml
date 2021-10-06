@@ -7,5 +7,5 @@ hsp = 0;
 vsp = 0;
 
 walksp = 1;
-jumpsp = 4;
+dropsp = 1;
 
