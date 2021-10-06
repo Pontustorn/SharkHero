@@ -17,9 +17,15 @@ var moveDirection = 0;
 if (horizontalInput != 0 || verticalInput != 0)
 {
 	moveDirection = point_direction(0,0,horizontalInput, verticalInput);
+	
+	var canMove = false;
+	for (var i = 0; i <= 80; i += 10){
+		for (var j = -1; j <= 1; j += 2){
+			
+			var newDirection = (j*i) + moveDirection;
 
-	var xMovement = x + lengthdir_x(moveSpeed, moveDirection);
-	var yMovement = y + lengthdir_y(moveSpeed, moveDirection);
+	var xMovement = x + lengthdir_x(moveSpeed, newDirection);
+	var yMovement = y + lengthdir_y(moveSpeed, newDirection);
 	
 	motion_add(moveDirection, 0.1);
 	if (speed >= maxSpeed) {speed = maxSpeed}
@@ -28,11 +34,18 @@ if (place_free(xMovement,yMovement))
 {
 	x = xMovement;
 	y = yMovement;
+	canMove = true;
+	break;
 }
 else
 {
 	motion_set(moveDirection, 0)
 }
+
+
+		}
+		if (canMove){break;}
+	}
 
 	x = clamp(x, 32, room_width-32);
 	y = clamp(y, 32, room_height-32);
