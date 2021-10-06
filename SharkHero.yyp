@@ -55,6 +55,7 @@
     {"id":{"name":"spr_tile07","path":"sprites/spr_tile07/spr_tile07.yy",},"order":31,},
     {"id":{"name":"eatFishHealth","path":"objects/eatFishHealth/eatFishHealth.yy",},"order":5,},
     {"id":{"name":"obj_tile25","path":"objects/obj_tile25/obj_tile25.yy",},"order":25,},
+    {"id":{"name":"SquidFake","path":"objects/SquidFake/SquidFake.yy",},"order":48,},
     {"id":{"name":"spr_tile27","path":"sprites/spr_tile27/spr_tile27.yy",},"order":51,},
     {"id":{"name":"oHurtbox","path":"objects/oHurtbox/oHurtbox.yy",},"order":10,},
     {"id":{"name":"bloodFish","path":"objects/bloodFish/bloodFish.yy",},"order":6,},
