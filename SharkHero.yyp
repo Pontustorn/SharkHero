@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_Planks","path":"sprites/spr_Planks/spr_Planks.yy",},"order":20,},
     {"id":{"name":"enemyBottle","path":"sprites/enemyBottle/enemyBottle.yy",},"order":9,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
     {"id":{"name":"playerShark","path":"objects/playerShark/playerShark.yy",},"order":0,},
@@ -37,6 +38,7 @@
     {"id":{"name":"hurtBox","path":"sprites/hurtBox/hurtBox.yy",},"order":13,},
     {"id":{"name":"obj_oilFlow","path":"objects/obj_oilFlow/obj_oilFlow.yy",},"order":14,},
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":4,},
+    {"id":{"name":"oPlanks","path":"objects/oPlanks/oPlanks.yy",},"order":16,},
     {"id":{"name":"stoneObstacle","path":"objects/stoneObstacle/stoneObstacle.yy",},"order":7,},
     {"id":{"name":"fishBlood","path":"sprites/fishBlood/fishBlood.yy",},"order":6,},
   ],
