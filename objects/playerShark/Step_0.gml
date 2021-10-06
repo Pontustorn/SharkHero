@@ -5,6 +5,7 @@ var deltaTime = delta_time / 1000000;
 var moveSpeed = moveDistance * deltaTime;
 var maxSpeed = 3;
 
+
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
@@ -17,6 +18,7 @@ var moveDirection = 0;
 if (horizontalInput != 0 || verticalInput != 0)
 {
 	moveDirection = point_direction(0,0,horizontalInput, verticalInput);
+
 	
 	var canMove = false;
 	for (var i = 0; i <= 80; i += 10){
@@ -26,9 +28,11 @@ if (horizontalInput != 0 || verticalInput != 0)
 
 	var xMovement = x + lengthdir_x(moveSpeed, newDirection);
 	var yMovement = y + lengthdir_y(moveSpeed, newDirection);
+
 	
 	motion_add(moveDirection, 0.1);
 	if (speed >= maxSpeed) {speed = maxSpeed}
+
 
 if (place_free(xMovement,yMovement))
 {
@@ -46,7 +50,6 @@ else
 		}
 		if (canMove){break;}
 	}
-
 	x = clamp(x, 32, room_width-32);
 	y = clamp(y, 32, room_height-32);
 }
@@ -55,12 +58,11 @@ else
 	motion_set(moveDirection * -1, -0.5);
 }
 
-
 var inst = collision_rectangle(x, y, x + 100, y + 100, eatFish, false, false);
 if (inst != noone)
 {
 	//sprite_index = playerEat;
-   // play eat animation yes?
+   // An instance of obj_stone is in front of you
 
 }
 
