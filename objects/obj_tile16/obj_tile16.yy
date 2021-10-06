@@ -3,7 +3,7 @@
     "name": "spr_tile16",
     "path": "sprites/spr_tile16/spr_tile16.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
