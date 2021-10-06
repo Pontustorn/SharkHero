@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if(playerShark.x == x - 1000 && playerHasArrived == false)
+if(playerShark.x >= x - 400 && playerHasArrived == false)
 {
 alarm[0] = 1 * room_speed;
 

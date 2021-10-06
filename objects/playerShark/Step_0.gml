@@ -87,24 +87,18 @@ firingdelay = firingdelay - 1;
 if (mouse_check_button(mb_left)) && (firingdelay < 0) && (fishBones != 0)
 {
 	firingdelay = 5;
-	with(instance_create_layer(x,y,"FishBones", boneFish))
+	with(instance_create_layer(x + 80, y + 10,"FishBones", boneFish))
 	{
-		speed = 10;
+		speed = 6;
 		direction = image_angle;
-		
 		
 	}
 fishBones -= 1;
 }
 
-if(maxHealth <= 0)
+if(currentHealth <= 0)
 {
 	instance_destroy();
 }
 
-
-if(health > 3)
-{
-	
-}
 

@@ -46,6 +46,7 @@
     {"id":{"name":"room_StartMenu","path":"rooms/room_StartMenu/room_StartMenu.yy",},"order":1,},
     {"id":{"name":"spr_Bottle","path":"sprites/spr_Bottle/spr_Bottle.yy",},"order":18,},
     {"id":{"name":"obj_tile07","path":"objects/obj_tile07/obj_tile07.yy",},"order":7,},
+    {"id":{"name":"spr_healthBar","path":"sprites/spr_healthBar/spr_healthBar.yy",},"order":54,},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},"order":1,},
     {"id":{"name":"spr_tile08","path":"sprites/spr_tile08/spr_tile08.yy",},"order":32,},
     {"id":{"name":"spr_tile11","path":"sprites/spr_tile11/spr_tile11.yy",},"order":35,},

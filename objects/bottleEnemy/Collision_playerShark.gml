@@ -9,7 +9,7 @@ if(canDamage)
 canDamage = false;
 global.points += 150;
 instance_create_layer(x, y,"Blood", bloodFish);
-playerShark.maxHealth -= 1;
+playerShark.currentHealth -= 1;
 }
 
 
