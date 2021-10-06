@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bossSquid",
-    "path": "sprites/bossSquid/bossSquid.yy",
+    "name": "spr_Squid",
+    "path": "sprites/spr_Squid/spr_Squid.yy",
   },
   "solid": false,
   "visible": true,
