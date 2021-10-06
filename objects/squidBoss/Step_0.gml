@@ -2,7 +2,19 @@
 // You can write your code in this editor
 
 
-if(instance_exists(playerShark))
+if(playerShark.x == x - 1000 && playerHasArrived == false)
+{
+alarm[0] = 1 * room_speed;
+
+alarm [1] = 3 * room_speed;
+
+alarm [2] = 10 * room_speed;
+
+playerHasArrived = true;
+	
+}
+
+if(instance_exists(playerShark) && playerHasArrived == true)
 {
 	if (alarm[0] == -1) {
 		alarm[0] = spawn_time;

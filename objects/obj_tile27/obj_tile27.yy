@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "tileObjects",
+    "path": "folders/Objects/tileObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_tile27",
