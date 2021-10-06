@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+image_alpha = 1;
 
 if(playerShark.x >= x - 400 && playerHasArrived == false)
 {
@@ -37,6 +37,10 @@ if(instance_exists(playerShark) && playerHasArrived == true)
 
 }
 
+if(health <= 0)
+{
+	instance_destroy();
+}
 
 	
 
