@@ -9,5 +9,5 @@ if (alarm[0] == -1) {
 
 if(x <= squidBoss.x + 100)
 {
-x = x + 1;	
+x = x + 3;	
 }
