@@ -65,8 +65,7 @@ var inst = collision_rectangle(x, y, x + 100, y + 100, eatFish, false, false);
 if (inst != noone)
 {
 	sprite_index = spr_Shark_Eat;
-	image_index = 0;
-	image_speed = 0;
+	image_speed = 1;
    // An instance of obj_stone is in front of you
 
 }
@@ -74,6 +73,7 @@ if (inst != noone)
 else {
 	
 	sprite_index = spr_Shark_001;
+	image_speed = 1;
 }
 
 
@@ -107,3 +107,4 @@ if(health > 3)
 {
 	
 }
+
