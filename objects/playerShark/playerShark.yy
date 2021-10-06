@@ -3,7 +3,7 @@
     "name": "spr_Shark_001",
     "path": "sprites/spr_Shark_001/spr_Shark_001.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

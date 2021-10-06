@@ -3,7 +3,7 @@
     "name": "Obstacle_001",
     "path": "sprites/Obstacle_001/Obstacle_001.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
