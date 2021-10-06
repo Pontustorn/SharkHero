@@ -192,10 +192,7 @@
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Blood","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"FishBones","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"squidBoss","path":"objects/squidBoss/squidBoss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2272.0,"y":224.0,"resourceVersion":"1.0","name":"inst_23B7705","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oPlanks","path":"objects/oPlanks/oPlanks.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":256.0,"resourceVersion":"1.0","name":"inst_3209F265","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oPlanks","path":"objects/oPlanks/oPlanks.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":192.0,"resourceVersion":"1.0","name":"inst_4BE90FD9","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oPlanks","path":"objects/oPlanks/oPlanks.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":224.0,"resourceVersion":"1.0","name":"inst_3AC367AC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"squidBoss","path":"objects/squidBoss/squidBoss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":352.0,"resourceVersion":"1.0","name":"inst_23B7705","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"SquidBoss","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"fishSpawner","path":"objects/fishSpawner/fishSpawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":64.0,"resourceVersion":"1.0","name":"inst_3E32BE4E","tags":[],"resourceType":"GMRInstance",},
@@ -218,9 +215,6 @@
     {"name":"inst_4162EFBA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_23B7705","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_F7F12CD","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3209F265","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4BE90FD9","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3AC367AC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_48828AC3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6631C0E2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_27365476","path":"rooms/Room1/Room1.yy",},
