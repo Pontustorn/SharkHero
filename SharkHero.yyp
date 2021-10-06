@@ -96,6 +96,7 @@
     {"id":{"name":"obj_tile28","path":"objects/obj_tile28/obj_tile28.yy",},"order":28,},
     {"id":{"name":"spr_tile23","path":"sprites/spr_tile23/spr_tile23.yy",},"order":47,},
     {"id":{"name":"spr_tile10","path":"sprites/spr_tile10/spr_tile10.yy",},"order":34,},
+    {"id":{"name":"spr_StartMenu","path":"sprites/spr_StartMenu/spr_StartMenu.yy",},"order":55,},
     {"id":{"name":"obj_stoneObstacle","path":"objects/obj_stoneObstacle/obj_stoneObstacle.yy",},"order":0,},
     {"id":{"name":"spr_Shark_Bleed","path":"sprites/spr_Shark_Bleed/spr_Shark_Bleed.yy",},"order":24,},
     {"id":{"name":"fishBlood","path":"sprites/fishBlood/fishBlood.yy",},"order":6,},
