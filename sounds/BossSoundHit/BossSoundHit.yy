@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "BossSoundHit.mp3",
-  "duration": 1.6832,
+  "duration": 1.2,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
