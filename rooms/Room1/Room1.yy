@@ -1025,6 +1025,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tile04","path":"objects/obj_tile04/obj_tile04.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12544.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_53B05DEA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tile04","path":"objects/obj_tile04/obj_tile04.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12704.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_513A8654","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tile04","path":"objects/obj_tile04/obj_tile04.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12384.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_4027AAFB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oPlanks","path":"objects/oPlanks/oPlanks.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.33333337,"scaleY":1.66666663,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2784.0,"y":544.0,"resourceVersion":"1.0","name":"inst_B867DF7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"BackgroundObstacles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"SquidFake","path":"objects/SquidFake/SquidFake.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4448.0,"y":576.0,"resourceVersion":"1.0","name":"inst_63A07F95","tags":[],"resourceType":"GMRInstance",},
@@ -2059,6 +2060,7 @@
     {"name":"inst_7156AD19","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4DB20DC7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2240501E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_B867DF7","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
