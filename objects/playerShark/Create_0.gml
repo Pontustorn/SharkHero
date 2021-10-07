@@ -6,8 +6,8 @@ currentHealth = maxHealth;
 
 healthbar_Width = 100;
 healthbar_Height = 16;
-healthbar_x = fishSpawner.x / 2;
-healthbar_y = room_height - 800;
+healthbar_x = fishSpawner.x / 2 - 600;
+healthbar_y = room_height - 80;
 
 firingdelay = 0;
 fishBones = 0;

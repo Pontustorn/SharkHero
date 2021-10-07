@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-var moveDistance = 100;
+var moveDistance = 150;
 var deltaTime = delta_time / 1000000;
 var moveSpeed = moveDistance * deltaTime;
-var maxSpeed = 3;
+var maxSpeed = 2.5;
 
 
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -53,7 +53,7 @@ if (horizontalInput != 0 || verticalInput != 0)
 	} // End of for loop
 	
 	x = clamp(x, 32, room_width-32);
-	y = clamp(y, 32, room_height-32);
+	y = clamp(y, 64, room_height-32);
 }
 else 
 {
@@ -86,14 +86,20 @@ image_angle = point_direction(x, y, x + 1, y);
 firingdelay = firingdelay - 1;
 if (mouse_check_button(mb_left)) && (firingdelay < 0) && (fishBones != 0)
 {
-	firingdelay = 5;
-	with(instance_create_layer(x + 80, y + 10,"FishBones", boneFish))
+	firingdelay = 20;
+	with(instance_create_layer(x + 95, y + 10,"FishBones", boneFish))
 	{
-		speed = 6;
+		speed = 8;
 		direction = image_angle;
-		
 	}
-fishBones -= 1;
+	
+	fishBones -= 1;
+}
+
+if (firingdelay > -1)
+{
+	sprite_index = spr_Shark_Eat;
+	image_speed = 1;
 }
 
 if(currentHealth <= 0)
