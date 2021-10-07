@@ -14,8 +14,8 @@ currentHealth = maxHealth;
 healthbar_Width = 1000;
 healthbar_Height = 30;
 
-healthbar_x = fishSpawner.x - 1150;
-healthbar_y = 60;
+healthbar_x = fishSpawner.x - 1100;
+healthbar_y = 845;
 
 moveBossRight = false;
 moveBossLeft = false;
