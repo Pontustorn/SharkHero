@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tile08",
-    "path": "sprites/spr_tile08/spr_tile08.yy",
+    "name": "spr_tile33",
+    "path": "sprites/spr_tile33/spr_tile33.yy",
   },
   "solid": false,
   "visible": true,

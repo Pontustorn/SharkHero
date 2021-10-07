@@ -6,14 +6,14 @@ moveBossRight = false;
 for(var i = 0; i < 7; i++)
 {
 
-instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), 0,"Obstacles", obj_bossStone);
+instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), 0,"Obstacles", obj_bossStone2);
 
 }
 
-for(var i = 0; i < 5; i++)
+for(var i = 0; i < 7; i++)
 {
 
-instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), -300,"Obstacles", obj_bossStone);
+instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), -300,"Obstacles", obj_bossStone2);
 
 }
 
@@ -21,7 +21,7 @@ instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), -300,"O
 for(var i = 0; i < 7; i++)
 {
 
-instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), -600,"Obstacles", obj_bossStone);
+instance_create_layer(random_range(fishSpawner.x - 1280, fishSpawner.x), -600,"Obstacles", obj_bossStone2);
 
 }
 

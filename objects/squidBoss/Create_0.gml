@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_speed = 0;
+image_speed = 1;
 
 spawn_time = 0.1 * room_speed;
 
@@ -19,3 +19,5 @@ healthbar_y = 845;
 
 moveBossRight = false;
 moveBossLeft = false;
+
+goUp = true;

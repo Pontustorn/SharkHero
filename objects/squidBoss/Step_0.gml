@@ -2,9 +2,13 @@
 // You can write your code in this editor
 image_alpha = 1;
 
-if(playerShark.x >= x - 1280 && playerHasArrived == false)
+if(playerShark.x >= x - 500 && playerHasArrived == false)
 {
 
+fishSpawner.x = room_width;
+fishSpawner.y = room_height /2;
+healthSpawner.x = room_width;
+healthSpawner.y = room_height /2;
 //Sets timer for ink projectiles
 alarm[0] = 1 * room_speed;
 
@@ -36,13 +40,14 @@ if(instance_exists(playerShark) && playerHasArrived == true)
 {
 	if (alarm[0] == -1) {
 		alarm[0] = spawn_time;
-		image_index = 1;
+		sprite_index = spr_squidMouth;
+		image_speed = 1;
 	}
 
 
 	if (alarm[1] == -1)
 	{
-		image_index = 0;
+		sprite_index = spr_Squid;
 		alarm[0] = 3 * room_speed;
 		alarm[1] = 6 * room_speed;
 	}
@@ -100,6 +105,22 @@ if(moveBossLeft == true)
 	x -= 4;
 }
 
+if(playerHasArrived == true && y <= 600 && goUp = true)
+{
+y += 1;
+if(y == 600)
+{
+	goUp = false;
+}
+}
+if(playerHasArrived == true && y >= 300 && goUp = false)
+{
+y -= 1;
+if(y == 300)
+{
+	goUp = true;
+}
+}
 
 
 	
