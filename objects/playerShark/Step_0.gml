@@ -98,6 +98,7 @@ fishBones -= 1;
 
 if(currentHealth <= 0)
 {
+	room_goto(room_GameOver);
 	instance_destroy();
 }
 
