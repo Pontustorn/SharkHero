@@ -4,7 +4,5 @@
 if(!invincible)
 {
 hit = true;
-
-
 sprite_index = spr_Shark_Bleed;
 }
