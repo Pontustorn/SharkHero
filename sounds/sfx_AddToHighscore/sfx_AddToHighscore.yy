@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_AddToHighscore.mp3",
-  "duration": 0.4352,
+  "soundFile": "sfx_AddToHighscore.wav",
+  "duration": 0.290703,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

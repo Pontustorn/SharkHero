@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "WoodCrack.mp3",
-  "duration": 2.04,
+  "duration": 2.736,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
