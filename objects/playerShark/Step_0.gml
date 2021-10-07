@@ -102,15 +102,16 @@ if(currentHealth <= 0)
 	instance_destroy();
 }
 
-if(currentHealth == 2)
-{
-	alarm[0] = 2 * room_speed;
-	
-	
+if (hit == true && invincible == false) {
+     invincible = true;
+	 hit = false;
+	 image_alpha = 0.3;
+     alarm[0] = 2 * room_speed
 }
 
 if(alarm[0] == -1)
 {
+	invincible = false;
 	image_alpha = 1;
 }
 

@@ -12,7 +12,8 @@ healthbar_y = room_height - 800;
 firingdelay = 0;
 fishBones = 0;
 
-canBeDamaged = true;
+invincible = false;
+hit = false;
 
 
 x = 256;

@@ -3,6 +3,5 @@
 
 image_speed = 0;
 
-canDamage = true;
 walksp = 1;
 
