@@ -44,7 +44,7 @@ if(instance_exists(playerShark) && playerHasArrived == true)
 
 }
 
-if(health <= 0)
+if(currentHealth <= 0)
 {
 	instance_destroy();
 }
