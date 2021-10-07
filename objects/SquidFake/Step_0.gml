@@ -1,17 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(playerShark.x >= x - 300 && squidBoss.playerHasArrived == false)
+if(moveMe == true && y > 500)
 {
-	
-x += 4;
-
+y -= 4;
 }
 
-if(squidBoss.playerHasArrived == true)
+if(moveMe == false)
 {
-	alarm[0] = 5 * room_speed;
+y += 4;
 }
+
 
 
 
