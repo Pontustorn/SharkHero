@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tile07",
-    "path": "sprites/spr_tile07/spr_tile07.yy",
+    "name": "spr_tile30",
+    "path": "sprites/spr_tile30/spr_tile30.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/tileObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tile07",
+  "name": "obj_tile30",
   "tags": [],
   "resourceType": "GMObject",
 }
