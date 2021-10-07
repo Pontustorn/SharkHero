@@ -2,7 +2,7 @@
 // You can write your code in this editor
 image_alpha = 1;
 
-if(playerShark.x >= x - 400 && playerHasArrived == false)
+if(playerShark.x >= x - 1280 && playerHasArrived == false)
 {
 
 //Sets timer for ink projectiles
