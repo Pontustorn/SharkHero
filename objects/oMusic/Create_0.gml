@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+isPlayingBossMusic = false;
+isPlayingMusic = true;
 
-audio_play_sound(Sound2, 1000, true);
+
+
+
