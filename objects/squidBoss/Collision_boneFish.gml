@@ -3,4 +3,4 @@
 
 image_alpha = 0.5;
 
-currentHealth -= 1;
+currentHealth -= 10;

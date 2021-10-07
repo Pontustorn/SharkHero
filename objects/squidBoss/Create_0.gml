@@ -8,11 +8,11 @@ spawn_time = 0.1 * room_speed;
 
 playerHasArrived = false;
 
-maxHealth = 50;
+maxHealth = 1000;
 currentHealth = maxHealth;
 
-healthbar_Width = 100;
-healthbar_Height = 16;
+healthbar_Width = 1000;
+healthbar_Height = 32;
 
-healthbar_x = x;
-healthbar_y = y;
+healthbar_x = fishSpawner.x - 1100;
+healthbar_y = 60;
