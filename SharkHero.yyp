@@ -97,6 +97,7 @@
     {"id":{"name":"obj_tile29","path":"objects/obj_tile29/obj_tile29.yy",},"order":29,},
     {"id":{"name":"spr_Squid","path":"sprites/spr_Squid/spr_Squid.yy",},"order":21,},
     {"id":{"name":"obj_ContinueButton","path":"objects/obj_ContinueButton/obj_ContinueButton.yy",},"order":50,},
+    {"id":{"name":"BottleBreak","path":"sounds/BottleBreak/BottleBreak.yy",},"order":3,},
     {"id":{"name":"spr_tile01","path":"sprites/spr_tile01/spr_tile01.yy",},"order":26,},
     {"id":{"name":"obj_tile10","path":"objects/obj_tile10/obj_tile10.yy",},"order":10,},
     {"id":{"name":"hurtBox","path":"sprites/hurtBox/hurtBox.yy",},"order":13,},
