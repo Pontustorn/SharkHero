@@ -4,23 +4,24 @@
 if(squidBoss.playerHasArrived == true)
 {
 
+randomValue = random_range(50, room_height - 50);
 //One fish
-instance_create_layer(x + 100, 550,"Fish", eatFish);
+instance_create_layer(x + 100, randomValue,"Fish", eatFish);
 //Two fishies
-instance_create_layer(x + 175, 575,"Fish", eatFish);
-instance_create_layer(x + 175, 525,"Fish", eatFish);
+instance_create_layer(x + 175, randomValue + 25,"Fish", eatFish);
+instance_create_layer(x + 175, randomValue - 25,"Fish", eatFish);
 //Three fishies
-instance_create_layer(x + 250, 550,"Fish", eatFish);
-instance_create_layer(x + 250, 600,"Fish", eatFish);
-instance_create_layer(x + 250, 500,"Fish", eatFish);
+instance_create_layer(x + 250, randomValue,"Fish", eatFish);
+instance_create_layer(x + 250, randomValue + 50,"Fish", eatFish);
+instance_create_layer(x + 250, randomValue - 50,"Fish", eatFish);
 
 //Two fishies
-instance_create_layer(x + 325, 575,"Fish", eatFish);
-instance_create_layer(x + 325, 525,"Fish", eatFish);
+instance_create_layer(x + 325, randomValue + 25,"Fish", eatFish);
+instance_create_layer(x + 325, randomValue - 25,"Fish", eatFish);
 
 
 //// Five fishies
-instance_create_layer(x + 400, 550,"Fish", eatFish);
+instance_create_layer(x + 400, randomValue,"Fish", eatFish);
 
 
 }

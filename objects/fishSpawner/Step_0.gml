@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (alarm[0] == -1) {
-    alarm[0] = 5 * room_speed;
+    alarm[0] = 7 * room_speed;
 }
 
 

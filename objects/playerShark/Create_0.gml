@@ -12,6 +12,8 @@ healthbar_y = room_height - 800;
 firingdelay = 0;
 fishBones = 0;
 
+canBeDamaged = true;
+
 
 x = 256;
 y = room_height / 2;

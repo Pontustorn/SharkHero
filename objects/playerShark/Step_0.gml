@@ -101,4 +101,16 @@ if(currentHealth <= 0)
 	instance_destroy();
 }
 
+if(currentHealth == 2)
+{
+	alarm[0] = 2 * room_speed;
+	
+	
+}
+
+if(alarm[0] == -1)
+{
+	image_alpha = 1;
+}
+
 
