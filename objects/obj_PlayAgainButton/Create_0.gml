@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-audio_stop_all()
-room_goto(room_StartMenu);
+x = room_width / 2;
+y = room_height / 2;
