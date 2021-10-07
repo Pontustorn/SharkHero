@@ -16,5 +16,5 @@ invincible = false;
 hit = false;
 
 
-x = 256;
+x = 512;
 y = room_height / 2;
