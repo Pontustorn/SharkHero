@@ -86,6 +86,7 @@ image_angle = point_direction(x, y, x + 1, y);
 firingdelay = firingdelay - 1;
 if (mouse_check_button(mb_left)) && (firingdelay < 0) && (fishBones != 0)
 {
+	audio_play_sound(Bone_Sound, 100, false);
 	firingdelay = 20;
 	with(instance_create_layer(x + 95, y + 10,"FishBones", boneFish))
 	{
