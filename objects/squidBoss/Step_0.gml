@@ -12,6 +12,10 @@ alarm [2] = 10 * room_speed;
 
 alarm [3] = 8 * room_speed;
 
+alarm[4] = 14 * room_speed;
+
+alarm[5] = 16 * room_speed;
+
 playerHasArrived = true;
 	
 }
@@ -40,6 +44,17 @@ if(instance_exists(playerShark) && playerHasArrived == true)
 	{
 		alarm[3] = 20 * room_speed;
 	}
+	
+	if(alarm[4] == -1)
+	{
+	alarm[4] = 20 * room_speed;	
+	}
+	
+	if(alarm[5] == -1)
+	{
+	alarm[5] = 20 * room_speed;	
+	}
+	
 	
 
 }
