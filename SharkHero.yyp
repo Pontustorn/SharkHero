@@ -80,6 +80,7 @@
     {"id":{"name":"spr_tile06","path":"sprites/spr_tile06/spr_tile06.yy",},"order":30,},
     {"id":{"name":"obj_tile09","path":"objects/obj_tile09/obj_tile09.yy",},"order":9,},
     {"id":{"name":"obj_tile23","path":"objects/obj_tile23/obj_tile23.yy",},"order":23,},
+    {"id":{"name":"BossSoundHit","path":"sounds/BossSoundHit/BossSoundHit.yy",},"order":6,},
     {"id":{"name":"spr_tile22","path":"sprites/spr_tile22/spr_tile22.yy",},"order":46,},
     {"id":{"name":"spr_Shark_001","path":"sprites/spr_Shark_001/spr_Shark_001.yy",},"order":8,},
     {"id":{"name":"spr_tile30","path":"sprites/spr_tile30/spr_tile30.yy",},"order":59,},
