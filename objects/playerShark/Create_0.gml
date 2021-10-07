@@ -5,7 +5,7 @@ maxHealth = 3;
 currentHealth = maxHealth;
 
 healthbar_Width = 100;
-healthbar_Height = 16;
+healthbar_Height = 12;
 
 healthbar_x = fishSpawner.x / 2 - 600;
 healthbar_y = room_height - 80;
