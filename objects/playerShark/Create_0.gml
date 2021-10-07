@@ -6,11 +6,11 @@ image_alpha = 0.9;
 maxHealth = 3;
 currentHealth = maxHealth;
 
-healthbar_Width = 100;
-healthbar_Height = 12;
+healthbar_Width = 175;
+healthbar_Height = 28;
 
-healthbar_x = fishSpawner.x / 2 - 600;
-healthbar_y = room_height - 80;
+healthbar_x = fishSpawner.x - 180;
+healthbar_y = 20;
 
 firingdelay = 0;
 fishBones = 0;
@@ -21,8 +21,8 @@ hit = false;
 boneImage_Width = 100;
 boneImage_Height = 75;
 
-boneImage_x = fishSpawner.x / 2 - 500;
-boneImage_y = room_height - 120;
+boneImage_x = fishSpawner.x - 200;
+boneImage_y = 40;
 
 
 
