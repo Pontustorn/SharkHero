@@ -13,6 +13,7 @@ healthbar_x = fishSpawner.x - 180;
 healthbar_y = 20;
 
 firingdelay = 0;
+maxFishBones = 15;
 fishBones = 0;
 
 invincible = false;

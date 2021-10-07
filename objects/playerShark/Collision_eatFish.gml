@@ -1,3 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-fishBones += 1;
+if (fishBones < maxFishBones)
+{
+	fishBones += 1;
+}
+else
+{
+	fishBones = maxFishBones;
+}
