@@ -460,7 +460,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tile18","path":"objects/obj_tile18/obj_tile18.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.704,"scaleX":2.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8640.0,"y":384.0,"resourceVersion":"1.0","name":"inst_27597E96","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tile18","path":"objects/obj_tile18/obj_tile18.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.704,"scaleX":2.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9632.0,"y":384.0,"resourceVersion":"1.0","name":"inst_50929F22","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tile06","path":"objects/obj_tile06/obj_tile06.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9632.0,"y":64.0,"resourceVersion":"1.0","name":"inst_37F9B862","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"fishSpawner2","path":"objects/fishSpawner2/fishSpawner2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1568.0,"y":352.0,"resourceVersion":"1.0","name":"inst_27137C90","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Obstacles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oMusic","path":"objects/oMusic/oMusic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":320.0,"resourceVersion":"1.0","name":"inst_F7F12CD","tags":[],"resourceType":"GMRInstance",},
@@ -1577,7 +1576,6 @@
     {"name":"inst_5A9EC6DD","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1095BC1A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_48D71746","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_27137C90","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_289E83B6","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
