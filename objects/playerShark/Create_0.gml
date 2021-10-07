@@ -16,6 +16,14 @@ fishBones = 0;
 invincible = false;
 hit = false;
 
+boneImage_Width = 100;
+boneImage_Height = 75;
+
+boneImage_x = fishSpawner.x / 2 - 500;
+boneImage_y = room_height - 120;
+
+
+
 
 x = 512;
 y = room_height / 2;
