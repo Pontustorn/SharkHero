@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_AddToHighscore.mp3",
-  "duration": 0.4352,
+  "soundFile": "BossTakesDamage.mp3",
+  "duration": 1.6832,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfx_AddToHighscore",
+  "name": "BossTakesDamage",
   "tags": [],
   "resourceType": "GMSound",
 }

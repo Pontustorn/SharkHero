@@ -8,7 +8,7 @@ spawn_time = 0.1 * room_speed;
 
 playerHasArrived = false;
 
-maxHealth = 1;
+maxHealth = 1000;
 currentHealth = maxHealth;
 
 healthbar_Width = 1000;

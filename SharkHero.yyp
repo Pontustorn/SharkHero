@@ -42,6 +42,7 @@
     {"id":{"name":"spr_VictoryBackground","path":"sprites/spr_VictoryBackground/spr_VictoryBackground.yy",},"order":61,},
     {"id":{"name":"spr_eatFish","path":"sprites/spr_eatFish/spr_eatFish.yy",},"order":22,},
     {"id":{"name":"obj_tile19","path":"objects/obj_tile19/obj_tile19.yy",},"order":19,},
+    {"id":{"name":"BossTakesDamage","path":"sounds/BossTakesDamage/BossTakesDamage.yy",},"order":6,},
     {"id":{"name":"MedPackSound","path":"sounds/MedPackSound/MedPackSound.yy",},"order":4,},
     {"id":{"name":"spr_Obstacle","path":"sprites/spr_Obstacle/spr_Obstacle.yy",},"order":10,},
     {"id":{"name":"ScoreText","path":"objects/ScoreText/ScoreText.yy",},"order":6,},
