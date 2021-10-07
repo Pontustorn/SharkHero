@@ -103,6 +103,7 @@
     {"id":{"name":"obj_tile21","path":"objects/obj_tile21/obj_tile21.yy",},"order":21,},
     {"id":{"name":"oMusicBoss","path":"objects/oMusicBoss/oMusicBoss.yy",},"order":52,},
     {"id":{"name":"spr_oilFlow","path":"sprites/spr_oilFlow/spr_oilFlow.yy",},"order":19,},
+    {"id":{"name":"obj_shake","path":"objects/obj_shake/obj_shake.yy",},"order":56,},
     {"id":{"name":"obj_tile29","path":"objects/obj_tile29/obj_tile29.yy",},"order":29,},
     {"id":{"name":"spr_Squid","path":"sprites/spr_Squid/spr_Squid.yy",},"order":21,},
     {"id":{"name":"obj_ContinueButton","path":"objects/obj_ContinueButton/obj_ContinueButton.yy",},"order":50,},

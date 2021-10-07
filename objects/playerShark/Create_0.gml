@@ -29,3 +29,5 @@ boneImage_y = room_height - 120;
 
 x = 512;
 y = room_height / 2;
+
+

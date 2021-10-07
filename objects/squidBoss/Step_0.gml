@@ -100,6 +100,8 @@ if(moveBossLeft == true)
 	x -= 4;
 }
 
+
+
 	
 
 

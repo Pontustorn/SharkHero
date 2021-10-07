@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-moveBossLeft = true;
+shake = false;
 
-instance_destroy(obj_shake);
-
-alarm[9] = 3 * room_speed;
+camera_set_view_pos(view_camera[1], view_x, view_y)
