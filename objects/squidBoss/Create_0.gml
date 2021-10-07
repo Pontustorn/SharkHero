@@ -16,3 +16,6 @@ healthbar_Height = 30;
 
 healthbar_x = fishSpawner.x - 1150;
 healthbar_y = 60;
+
+moveBossRight = false;
+moveBossLeft = false;

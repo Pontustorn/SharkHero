@@ -4,20 +4,32 @@ image_alpha = 1;
 
 if(playerShark.x >= x - 400 && playerHasArrived == false)
 {
+
+//Sets timer for ink projectiles
 alarm[0] = 1 * room_speed;
 
+//Sets timer to hinder to many ink projectiles
 alarm [1] = 3 * room_speed;
 
-alarm [2] = 10 * room_speed;
-
+//Sets timer for indicator for first set of tentacles
 alarm [3] = 8 * room_speed;
 
+//Sets timer for first set of tentacles
+alarm [2] = 10 * room_speed;
+
+//Sets timer for indicator for second set of tentacles
 alarm[4] = 14 * room_speed;
 
+//Sets timer for second set of tentacles
 alarm[5] = 16 * room_speed;
 
+//Sets timer for retreat and roof collapsing
+alarm[6] = 30 * room_speed;
+
 playerHasArrived = true;
-	
+
+view_visible[0] = 0;
+view_visible[1] = 1;
 }
 
 if(instance_exists(playerShark) && playerHasArrived == true)
@@ -55,6 +67,19 @@ if(instance_exists(playerShark) && playerHasArrived == true)
 	alarm[5] = 20 * room_speed;	
 	}
 	
+	if(alarm[6] == -1)
+	{
+		alarm[0] = 15 * room_speed;
+		alarm[1] = 18 * room_speed;	
+		alarm[2] = 27 * room_speed;	
+		alarm[3] = 25 * room_speed;	
+		alarm[4] = 31 * room_speed;	
+		alarm[5] = 33 * room_speed;	
+		
+		alarm[6] = 60 * room_speed
+		
+	}
+	
 	
 
 }
@@ -63,6 +88,16 @@ if(currentHealth <= 0)
 {
 	room_goto(room_VictoryScreen)
 	instance_destroy();
+}
+
+if(moveBossRight == true)
+{
+x += 4;	
+}
+
+if(moveBossLeft == true)
+{
+	x -= 4;
 }
 
 	

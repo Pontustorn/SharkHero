@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-audio_play_sound(WoodCrack, 300, false);
 
-maxHealth -= 1;
+moveBossRight = true;
+
+alarm[7] = 3 * room_speed;
+alarm[8] = 10 * room_speed;
+
 

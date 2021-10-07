@@ -113,6 +113,7 @@
     {"id":{"name":"spr_tile02","path":"sprites/spr_tile02/spr_tile02.yy",},"order":25,},
     {"id":{"name":"fishSpawner2","path":"objects/fishSpawner2/fishSpawner2.yy",},"order":51,},
     {"id":{"name":"obj_oilFlow","path":"objects/obj_oilFlow/obj_oilFlow.yy",},"order":14,},
+    {"id":{"name":"obj_bossStone","path":"objects/obj_bossStone/obj_bossStone.yy",},"order":55,},
     {"id":{"name":"obj_groundOil","path":"objects/obj_groundOil/obj_groundOil.yy",},"order":50,},
     {"id":{"name":"spr_tile05","path":"sprites/spr_tile05/spr_tile05.yy",},"order":29,},
     {"id":{"name":"spr_wavesBackground3","path":"sprites/spr_wavesBackground3/spr_wavesBackground3.yy",},"order":65,},

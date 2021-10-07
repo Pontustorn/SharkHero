@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-audio_play_sound(WoodCrack, 300, false);
 
-maxHealth -= 1;
-
+image_xscale = image_xscale * 4;
+image_yscale = image_yscale * 4;

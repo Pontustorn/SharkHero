@@ -122,3 +122,9 @@ if(alarm[0] == -1)
 }
 
 fishBonesText = "x " + string(fishBones);
+
+if(x < fishSpawner.x - 1400)
+{
+	room_goto(room_GameOver);
+	instance_destroy();
+}
