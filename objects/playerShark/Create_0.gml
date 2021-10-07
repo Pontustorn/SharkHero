@@ -21,8 +21,8 @@ hit = false;
 boneImage_Width = 100;
 boneImage_Height = 75;
 
-boneImage_x = fishSpawner.x - 200;
-boneImage_y = 40;
+boneImage_x = fishSpawner.x - 250;
+boneImage_y = 50;
 
 
 

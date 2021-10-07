@@ -6,7 +6,7 @@ if (alarm[0] == -1) {
 }
 
 
-if(x <= squidBoss.x + 300 && !squidBoss.playerHasArrived)
+if(x <= 14080 && !squidBoss.playerHasArrived)
 {
 x = x + 3;	
 
