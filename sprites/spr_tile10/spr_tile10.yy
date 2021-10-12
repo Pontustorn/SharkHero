@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_map",
+    "path": "folders/Sprites/spr_map.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tile10",

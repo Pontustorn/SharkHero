@@ -2,7 +2,7 @@
 // You can write your code in this editor
 x = x - walksp;
 
-if (x < (fishSpawner.x - 1280))
+if(x < playerShark.x - 2000)
 {
-	instance_destroy();
+instance_destroy();
 }

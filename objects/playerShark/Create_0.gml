@@ -9,8 +9,10 @@ currentHealth = maxHealth;
 healthbar_Width = 175;
 healthbar_Height = 28;
 
-healthbar_x = fishSpawner.x - 180;
+
+healthbar_x = playerShark.x + 400;
 healthbar_y = 20;
+
 
 firingdelay = 0;
 maxFishBones = 15;
@@ -22,13 +24,17 @@ hit = false;
 boneImage_Width = 100;
 boneImage_Height = 75;
 
-boneImage_x = fishSpawner.x - 250;
+
+boneImage_x = playerShark.x + 460;
 boneImage_y = 50;
+
+playerIsEnlightened = false;
+
 
 
 
 
 x = 512;
-y = room_height / 2;
+y = 896 / 2;
 
 

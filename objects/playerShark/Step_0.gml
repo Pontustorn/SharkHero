@@ -124,8 +124,12 @@ if(alarm[0] == -1)
 
 fishBonesText = "x " + string(fishBones);
 
-if(x < fishSpawner.x - 1400)
+//with(instance_create_layer(playerShark.x + 50,playerShark.y, "Instances", obj_Lighting_Cutout))
+//{
+
+//}
+
+if(playerShark.x >= 16000)
 {
-	room_goto(room_GameOver);
-	instance_destroy();
+	room_goto(room_VictoryScreen)
 }

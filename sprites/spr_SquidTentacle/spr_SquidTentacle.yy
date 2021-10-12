@@ -121,8 +121,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_boss",
+    "path": "folders/Sprites/spr_boss.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_SquidTentacle",

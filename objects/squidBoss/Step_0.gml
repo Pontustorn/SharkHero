@@ -91,7 +91,7 @@ if(instance_exists(playerShark) && playerHasArrived == true)
 
 if(currentHealth <= 0)
 {
-	room_goto(room_VictoryScreen)
+	room_goto(Room2)
 	instance_destroy();
 }
 

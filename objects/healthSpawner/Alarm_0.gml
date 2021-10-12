@@ -3,6 +3,6 @@
 
 
 
-instance_create_layer(random_range(x, x - 50), 0,"Fish", eatFishHealth);
+instance_create_layer(random_range(x, x - 400), 0,"Fish", eatFishHealth);
 
 

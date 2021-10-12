@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_enemies",
+    "path": "folders/Sprites/spr_enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Planks",

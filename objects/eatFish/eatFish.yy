@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "mapObjects",
+    "path": "folders/Objects/mapObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "eatFish",
