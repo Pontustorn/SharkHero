@@ -12,20 +12,14 @@ if (alarm[0] == -1) {
 
 if(x <= 16200 && goDown == false)
 {
-x = x + 3;
+x = x + 4;
 
 }
 
 
 //Movement for fishspawner
 
-if(x >= 9400 && goDown == true)
-{
-	goDown = false;
-	instance_create_layer(8200, 2300, "Instances", obj_bossChaser)
-	x += 2;
-	
-}
+
 
 for(var i = 0; i < 10; i++)
 {
